@@ -1,0 +1,121 @@
+body {
+    background-color: #262626;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  #logo-img {
+    width: 45px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  #not-found-img {
+    padding-top: 35%;
+    width: 220px;
+    height: 200px;
+  }
+
+  .inputText {
+    flex: 9;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .col1{
+    flex: 3;
+  }
+
+  .col2{
+    border-radius: 10px;
+    flex: 1;
+    width: 80%;
+    margin-right: 5%;
+    background-color: #2E2E2E;
+  }
+  
+  textarea {
+    padding: 10px;
+    resize: none;
+    outline: none;    
+    border: none;
+  }
+
+  #encrypt-input {
+    background-color: transparent;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-left: 25px;
+    height: 69vh;
+    color: white;
+  }
+
+  #encrypt-output {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 89%;
+    gap: 0;
+    height: 75vh;
+    background-color: #2E2E2E;
+    display: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  #btnsContainer{
+    display: flex;
+    justify-content: center;     
+  }
+
+  .sep{
+    padding-top: 32px;
+    padding-right: 30px;
+  }
+  
+  .col2row1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 89%; 
+    background-color: #2E2E2E;
+    padding: 10px;
+    gap: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  #copy-btn {
+    visibility: hidden;
+  }
+
+  .not-found {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    padding-top: 30px;   
+  }
+
+  p {
+    color: gray;
+    text-align: center;
+    font-size: 13.5px;
+  }
+
+  h2 {
+    margin-block-end: 0px;
+  }
+ 
+
+
+

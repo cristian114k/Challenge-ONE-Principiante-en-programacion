@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <script type="module" src="js/main.js"></script>    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img id="logo-img" src="images/alura-logo.png" alt="Icono de alura">
+        </div>
+        <div class="inputText">
+            <div class="col1">
+                <textarea id="encrypt-input" placeholder="Ingrese el texto aquí"></textarea>
+                <div id="btnsContainer">
+                    <div class="sep">
+                        <button class="btn cube cube-hover" id="encrypt-btn" type="button">
+                            <div class="bg-top">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="bg-right">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="bg">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="text">Encriptar</div>
+                        </button>
+                    </div>
+                    <div class="sep">
+                        <button class="btn cube cube-hover" id="decrypt-btn" type="button">
+                            <div class="bg-top">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="bg-right">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="bg">
+                            <div class="bg-inner"></div>
+                            </div>
+                            <div class="text">Desencriptar</div>
+                        </button>
+                    </div>        
+                </div>
+            </div>
+            <div class="col2">
+                <textarea id="encrypt-output" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <div class="not-found" id="hide">
+                    <img id="not-found-img" src="images/NotFound.png" alt="Icono de alura">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="col2row1">
+                    <button class="btn cube cube-hover" type="button" id="copy-btn">
+                        <div class="bg-top">
+                        <div class="bg-inner"></div>
+                        </div>
+                        <div class="bg-right">
+                        <div class="bg-inner"></div>
+                        </div>
+                        <div class="bg">
+                        <div class="bg-inner"></div>
+                        </div>
+                        <div class="text">Copiar</div>
+                    </button>
+                </div>   
+            </div>           
+        </div>
+    </div>
+    
+</body>
+</html>
