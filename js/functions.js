@@ -30,27 +30,6 @@ function copy(element) {
     navigator.clipboard.writeText(inputElement.value);
 }
 
-function hid(element) {
-    var elementToHide = document.getElementById(element);
-    var visibilityElementToHide = window.getComputedStyle(elementToHide).getPropertyValue('visibility');
-    var displayElementToHide = window.getComputedStyle(elementToHide).getPropertyValue('display');
-    if (elementToHide.tagName === 'BUTTON') {
-        if (visibilityElementToHide === 'hidden'){
-            elementToHide.style.visibility = 'visible';
-        }
-        else {
-            elementToHide.style.visibility = 'hidden';
-        }
-    } 
-    if (elementToHide.tagName != 'BUTTON') {
-        if (displayElementToHide === 'none') {
-            elementToHide.style.display = 'block';
-        } else {
-            elementToHide.style.display = 'none';
-        }
-    }
-}
-
 function hide(elementId) {
     var element = document.getElementById(elementId);
 
