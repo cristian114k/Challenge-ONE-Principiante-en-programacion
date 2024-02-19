@@ -5,11 +5,17 @@ body {
   
   .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .logo {
-    flex: 1;
+  .box {
+    flex: 1; /* Hace que las cajas ocupen todo el espacio disponible */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total de la caja */
   }
+  
+  
+
 
   #logo-img {
     width: 45px;
@@ -25,7 +31,7 @@ body {
   }
 
   .inputText {
-    flex: 9;
+    flex: 10;
     margin-top: 50px;
     display: flex;
   }
@@ -36,14 +42,16 @@ body {
 
   .col2{
     border-radius: 10px;
-    flex: 1;
+    flex: 3;
     width: 80%;
-    margin-right: 5%;
+    margin-top: 1%;
+    margin-right: 2%;
     background-color: #2E2E2E;
   }
   
   textarea {
     padding: 10px;
+    padding-right: 0px;
     resize: none;
     outline: none;    
     border: none;
@@ -56,6 +64,7 @@ body {
     padding-left: 25px;
     height: 69vh;
     color: white;
+    width: 90%;
   }
 
   #encrypt-output {
@@ -63,7 +72,7 @@ body {
     border-top-right-radius: 10px;
     width: 89%;
     gap: 0;
-    height: 75vh;
+    height: 81vh;
     background-color: #2E2E2E;
     display: none;
     color: white;
@@ -81,13 +90,12 @@ body {
   }
   
   .col2row1 {
+    margin-right: 2%;
     background-color: transparent;
     display: flex;
     justify-content: center; 
-    align-items: center;
-    width: 89%; 
+    width: 100%; 
     background-color: #2E2E2E;
-    padding: 10px;
     gap: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

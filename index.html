@@ -10,10 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">
+        <div class="box logo">
             <img id="logo-img" src="images/alura-logo.png" alt="Icono de alura">
         </div>
-        <div class="inputText">
+        <div class="box inputText">
             <div class="col1">
                 <textarea id="encrypt-input" placeholder="Ingrese el texto aquí"></textarea>
                 <div id="btnsContainer">
@@ -46,30 +46,30 @@
                         </button>
                     </div>        
                 </div>
-            </div>
-            <div class="col2">
-                <textarea id="encrypt-output" placeholder="Ningún mensaje fue encontrado"></textarea>
-                <div class="not-found" id="hide">
-                    <img id="not-found-img" src="images/NotFound.png" alt="Icono de alura">
-                    <h2>Ningún mensaje fue encontrado</h2>
-                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-                </div>
-                <div class="col2row1">
-                    <button class="btn cube cube-hover" type="button" id="copy-btn">
-                        <div class="bg-top">
-                        <div class="bg-inner"></div>
-                        </div>
-                        <div class="bg-right">
-                        <div class="bg-inner"></div>
-                        </div>
-                        <div class="bg">
-                        <div class="bg-inner"></div>
-                        </div>
-                        <div class="text">Copiar</div>
-                    </button>
-                </div>   
-            </div>           
+            </div>               
         </div>
+        <div class="box col2">
+            <textarea id="encrypt-output" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+            <div class="not-found" id="hide">
+                <img id="not-found-img" src="images/NotFound.png" alt="Icono de alura">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="col2row1">
+                <button class="btn cube cube-hover" type="button" id="copy-btn">
+                    <div class="bg-top">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg-right">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="bg">
+                    <div class="bg-inner"></div>
+                    </div>
+                    <div class="text">Copiar</div>
+                </button>
+            </div>   
+        </div>        
     </div>
     
 </body>
